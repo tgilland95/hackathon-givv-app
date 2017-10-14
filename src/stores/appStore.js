@@ -2,7 +2,9 @@ import { action, computed, observable } from 'mobx'
 
 class AppStore {
 	@observable
-	questions = localStorage.getItem('questions')
+	data = {
+		
+	}
 }
 const store = new AppStore()
 export default store
