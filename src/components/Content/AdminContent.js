@@ -1,31 +1,21 @@
-import Tabs, { Tab, TabContainer } from 'material-ui/Tabs';
+import Tabs, { Tab } from 'material-ui/Tabs';
 
 import AppBar from 'material-ui/AppBar'
+import Card from 'material-ui/Card'
 import Grid from 'material-ui/Grid'
 import Paper from 'material-ui/Paper';
 import React from 'react';
+import Typography from 'material-ui/Typography'
 
 export default class AdminContent extends React.Component {
-	state = {
-		value: 0,
-	 }
+	render(){
+		return(
+			<div>
+				
+			</div>
+		)
+	}
   
-	 handleChange = (event, value) => {
-		this.setState({ value });
-	 }
-  
-	 render() {
-		const  value  = this.state;
-    return (
-		 <Grid container xs={12} md={10} lg={8}>
-	      <Grid item xs={12}>
-		<Paper>
-			
-		</Paper>
-		</Grid>
-		</Grid>
-    )
-  }
+	 
 }
-
 
